@@ -105,4 +105,5 @@ tqqnormSF_2016 extArg shapes2016.root:shapes2016
 tqqeffSF_2016_effect_SR1fail2016_TTbar rateParam SR1fail2016 TTbar (((1-@0)*0.46058270735105256)+1) tqqeffSF_2016
 tqqeffSF_2016_effect_SR1fail2016_SingleTop rateParam SR1fail2016 SingleTop (((1-@0)*0.46058270735105256)+1) tqqeffSF_2016
 tqqnormSF_2016_effect_SR1fail2016_TTbar rateParam SR1fail2016 TTbar (1*@0) tqqnormSF_2016
-tqqnormSF_2016_effect_SR1fail2016_SingleTop rateParam SR1fail2016 SingleTop (1*@0) tqqnormSF_2016
+tqqnormSF_2016_effect_SR1fail2016_SingleTop rateParam SR1fail2016 SingleTop (1*@0) tqqnormSF_2016S
+wjetsnormSF rateParam * WJetsLNu 1.0 [0,5]

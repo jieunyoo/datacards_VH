@@ -106,3 +106,4 @@ tqqeffSF_2016_effect_SR1pass2016_TTbar rateParam SR1pass2016 TTbar (1*@0) tqqeff
 tqqeffSF_2016_effect_SR1pass2016_SingleTop rateParam SR1pass2016 SingleTop (1*@0) tqqeffSF_2016
 tqqnormSF_2016_effect_SR1pass2016_TTbar rateParam SR1pass2016 TTbar (1*@0) tqqnormSF_2016
 tqqnormSF_2016_effect_SR1pass2016_SingleTop rateParam SR1pass2016 SingleTop (1*@0) tqqnormSF_2016
+wjetsnormSF rateParam * WJetsLNu 1.0 [0,5]
