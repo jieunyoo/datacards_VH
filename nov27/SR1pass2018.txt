@@ -1,14 +1,14 @@
-# Datacard for <Channel (SR1pass2018) instance at 0x7fc804c57ee0> generated on 2024-11-27 14:47:12.363097
+# Datacard for <Channel (SR1pass2018) instance at 0x7f8bc8e0ef70> generated on 2024-12-01 17:52:48.886124
 imax 1 # number of categories ('bins' but here we are using shape templates)
 jmax 10 # number of samples minus 1
-kmax 92 # number of nuisance parameters
+kmax 94 # number of nuisance parameters
 shapes * SR1pass2018 shapes2018.root shapes2018:SR1pass2018_$PROCESS shapes2018:SR1pass2018_$PROCESS_$SYSTEMATIC
 bin SR1pass2018
-observation 388.000
+observation 418.000
 bin                                                 SR1pass2018    SR1pass2018    SR1pass2018    SR1pass2018    SR1pass2018    SR1pass2018    SR1pass2018    SR1pass2018    SR1pass2018    SR1pass2018  SR1pass2018
 process                                                      WH             ZH            VBF            ggF            ttH       WJetsLNu          TTbar      SingleTop         DYJets        Diboson         fake
 process                                                      -4             -3             -2             -1              0              1              2              3              4              5            6
-rate                                                      3.794          3.380          0.232          0.879          1.297         92.277        121.918          9.295          4.882          1.341        2.450
+rate                                                      3.857          3.404          0.230          0.871          1.309         92.064        122.872          9.383          4.924          1.341        2.929
 BR_hww lnN                                        0.9848/1.0153  0.9848/1.0153  0.9848/1.0153  0.9848/1.0153  0.9848/1.0153              -              -              -              -              -            -
 CMS_HWW_FakeRate_EWK_SF_flavor_uncertainty shape              -              -              -              -              -              -              -              -              -              -       1.0000
 CMS_HWW_boosted_Fake_SF_uncertainty lnN                       -              -              -              -              -              -              -              -              -              -       1.3000
@@ -16,6 +16,8 @@ CMS_HWW_boosted_SR1_pass_mcstat_bin0 shape               1.0000         1.0000  
 CMS_HWW_boosted_SR1_pass_mcstat_bin1 shape               1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000       1.0000
 CMS_HWW_boosted_SR1_pass_mcstat_bin2 shape               1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000       1.0000
 CMS_HWW_boosted_SR1_pass_mcstat_bin3 shape               1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000       1.0000
+CMS_HWW_boosted_SR1_pass_mcstat_bin4 shape               1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000       1.0000
+CMS_HWW_boosted_SR1_pass_mcstat_bin5 shape               1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000         1.0000       1.0000
 CMS_HWW_boosted_W_d1kappa_EW lnN                              -              -              -              -              -         1.0027              -              -         1.0008              -            -
 CMS_HWW_boosted_W_d2kappa_EW lnN                              -              -              -              -              -         1.0027              -              -              -              -            -
 CMS_HWW_boosted_W_d3kappa_EW lnN                              -              -              -              -              -         1.0027              -              -              -              -            -
