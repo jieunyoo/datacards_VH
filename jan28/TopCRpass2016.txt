@@ -1,0 +1,66 @@
+# Datacard for <Channel (TopCRpass2016) instance at 0x7fd393a74130> generated on 2025-01-28 16:56:58.262428
+imax 1 # number of categories ('bins' but here we are using shape templates)
+jmax 3 # number of samples minus 1
+kmax 54 # number of nuisance parameters
+shapes * TopCRpass2016 shapes_TopCR2016.root shapes_TopCR2016:TopCRpass2016_$PROCESS shapes_TopCR2016:TopCRpass2016_$PROCESS_$SYSTEMATIC
+bin TopCRpass2016
+observation 5519.000
+bin                                             TopCRpass2016  TopCRpass2016  TopCRpass2016  TopCRpass2016
+process                                              WJetsLNu          TTbar      SingleTop         DYJets
+process                                                     1              2              3              4
+rate                                                  272.958       4060.707        247.486         34.821
+CMS_HWW_boosted_TopCR_pass_mcstat_bin0 shape           1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_TopCR_pass_mcstat_bin1 shape           1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_TopCR_pass_mcstat_bin2 shape           1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_TopCR_pass_mcstat_bin3 shape           1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_W_d1kappa_EW lnN                       1.0000              -              -         1.0000
+CMS_HWW_boosted_W_d2kappa_EW lnN                       1.0000              -              -              -
+CMS_HWW_boosted_W_d3kappa_EW lnN                       1.0000              -              -              -
+CMS_HWW_boosted_Z_d2kappa_EW lnN                            -              -              -         1.0000
+CMS_HWW_boosted_Z_d3kappa_EW lnN                            -              -              -         1.0000
+CMS_HWW_boosted_btagSFbcCorrelated lnN                 0.9335         0.9729         0.9789         0.9477
+CMS_HWW_boosted_btagSFbcCorrelated_2016 lnN            0.9338         0.8823         0.9802         0.9480
+CMS_HWW_boosted_btagSFlightCorrelated lnN              0.9335         0.9729         0.9785         0.9472
+CMS_HWW_boosted_btagSFlightCorrelated_2016 lnN         0.9336         0.8822         0.9786         0.9474
+CMS_HWW_boosted_d1K_NLO lnN                            1.0009              -              -              -
+CMS_HWW_boosted_d2K_NLO lnN                            1.0005              -              -              -
+CMS_HWW_boosted_d3K_NLO lnN                            1.0000              -              -              -
+CMS_HWW_boosted_ele_identification lnN                 1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_ele_reconstruction lnN                 1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_jmr_2016 lnN                           0.9532         0.9415         0.9569         0.9684
+CMS_HWW_boosted_jms_2016 lnN                           0.9675         0.9705         0.9742         0.9620
+CMS_HWW_boosted_miniisolation_SF_unc lnN        0.9800/1.0200  0.9800/1.0200  0.9800/1.0200  0.9800/1.0200
+CMS_HWW_boosted_mu_identification lnN                  1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_mu_isolation lnN                       1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_mu_trigger lnN                         1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_mu_trigger_iso lnN                     1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_top_reweighting shape                       -         1.0000              -              -
+CMS_l1_ecal_prefiring_2016 lnN                         1.0218         1.0227         1.0258         1.0173
+CMS_lumi_13TeV_2016 lnN                                1.0100         1.0100         1.0100         1.0100
+CMS_lumi_13TeV_correlated lnN                          1.0060         1.0060         1.0060         1.0060
+CMS_pileup_2016 lnN                                    1.0086         1.0023         1.0108         1.0255
+CMS_res_j_2016 lnN                                     0.9979         0.9994         0.9971         0.9997
+CMS_scale_j_Abs lnN                                    0.9969         1.0000         0.9972         0.9897
+CMS_scale_j_Abs_2016 lnN                               0.9947         0.9999         0.9978         0.9898
+CMS_scale_j_BBEC1 lnN                                  0.9993         0.9998         0.9975         1.0014
+CMS_scale_j_BBEC1_2016 lnN                             1.0007         1.0000         0.9995         1.0055
+CMS_scale_j_EC2 lnN                                    0.9982         0.9998         0.9994         1.0016
+CMS_scale_j_EC2_2016 lnN                               0.9985         1.0000         0.9989         0.9995
+CMS_scale_j_FlavQCD lnN                                0.9914         1.0003         0.9950         0.9937
+CMS_scale_j_HF lnN                                     0.9990         0.9999         0.9994         1.0027
+CMS_scale_j_HF_2016 lnN                                0.9999         0.9999         1.0000         1.0005
+CMS_scale_j_RelBal lnN                                 0.9947         0.9998         0.9954         0.9989
+CMS_scale_j_RelSample_2016 lnN                         0.9924         1.0001         0.9978         1.0069
+PDF_singletop_ACCEPT_CMS_HWW_boosted shape                  -              -         1.0000              -
+PDF_ttbar_ACCEPT_CMS_HWW_boosted shape                      -         1.0000              -              -
+QCDscale_singletop_ACCEPT_CMS_HWW_boosted lnN               -              -         1.0385              -
+QCDscale_ttbar_ACCEPT_CMS_HWW_boosted lnN                   -         1.0189              -              -
+QCDscale_wjets_ACCEPT_CMS_HWW_boosted lnN              1.0011              -              -              -
+ps_fsr_singletop lnN                                        -              -         1.1148              -
+ps_fsr_ttbar lnN                                            -         1.0300              -              -
+ps_fsr_wjets lnN                                       1.0850              -              -              -
+ps_isr_singletop lnN                                        -              -         1.0058              -
+ps_isr_ttbar lnN                                            -         1.0019              -              -
+ps_isr_wjets lnN                                       1.0006              -              -              -
+unclustered_Energy lnN                                 0.9954         1.0006         1.0068  0.9998/1.0296
+ttbarnormSF rateParam * TTbar 1.0 [0,5]
