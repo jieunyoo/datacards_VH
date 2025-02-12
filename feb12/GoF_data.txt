@@ -1,0 +1,9 @@
+ <<< Combine >>> 
+ <<< v10.0.2 >>>
+>>> Random number generator seed is 1
+Will use saturated model to compute goodness of fit for a binned likelihood
+>>> Method used is GoodnessOfFit
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 33.441
+Done in 0.03 min (cpu), 0.03 min (real)
