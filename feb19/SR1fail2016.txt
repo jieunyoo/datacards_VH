@@ -1,0 +1,68 @@
+# Datacard for <Channel (SR1fail2016) instance at 0x7f6eed477fd0> generated on 2025-02-17 17:40:37.255666
+imax 1 # number of categories ('bins' but here we are using shape templates)
+jmax 4 # number of samples minus 1
+kmax 56 # number of nuisance parameters
+shapes * SR1fail2016 shapes_WJetLNu2016.root shapes_WJetLNu2016:SR1fail2016_$PROCESS shapes_WJetLNu2016:SR1fail2016_$PROCESS_$SYSTEMATIC
+bin SR1fail2016
+observation 1765.000
+bin                                                SR1fail2016    SR1fail2016    SR1fail2016    SR1fail2016    SR1fail2016
+process                                               WJetsLNu          TTbar      SingleTop         DYJets        Diboson
+process                                                      1              2              3              4              5
+rate                                                   906.193        410.558         21.432         44.168         14.187
+CMS_HWW_boosted_SR1_fail_mcstat_bin0 shape              1.0000         1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_SR1_fail_mcstat_bin1 shape              1.0000         1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_SR1_fail_mcstat_bin2 shape              1.0000         1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_SR1_fail_mcstat_bin3 shape              1.0000         1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_W_d1kappa_EW lnN                        1.0027              -              -         1.0022              -
+CMS_HWW_boosted_W_d2kappa_EW lnN                        1.0027              -              -              -              -
+CMS_HWW_boosted_W_d3kappa_EW lnN                        1.0027              -              -              -              -
+CMS_HWW_boosted_Z_d2kappa_EW lnN                             -              -              -         1.0022              -
+CMS_HWW_boosted_Z_d3kappa_EW lnN                             -              -              -         1.0022              -
+CMS_HWW_boosted_btagSFbcCorrelated lnN                  1.0000         1.0057         1.0051         0.9960         0.9953
+CMS_HWW_boosted_btagSFbc_2016 lnN                       1.0000         1.0199         1.0172         0.9961         0.9953
+CMS_HWW_boosted_btagSFlightCorrelated lnN               1.0000         1.0057         1.0051         0.9959         0.9953
+CMS_HWW_boosted_btagSFlight_2016 lnN                    1.0000         1.0057         1.0051         0.9959         0.9953
+CMS_HWW_boosted_d1K_NLO lnN                      0.9178/1.0900              -              -              -              -
+CMS_HWW_boosted_d2K_NLO lnN                      0.9321/1.0750              -              -              -              -
+CMS_HWW_boosted_d3K_NLO lnN                      0.9867/1.0188              -              -              -              -
+CMS_HWW_boosted_ele_identification lnN                  1.0027         0.9645         1.0012         1.0022         1.0018
+CMS_HWW_boosted_ele_reconstruction lnN                  1.0027         0.9645         1.0012         1.0022         1.0018
+CMS_HWW_boosted_ele_trigger_stat_unc_2016 shape         1.0000         1.0000         1.0000         1.0000         1.0000
+CMS_HWW_boosted_ele_trigger_syst_unc lnN                1.0500         1.0500         1.0500         1.0500         1.0500
+CMS_HWW_boosted_jmr_ttbar_2016 shape                         -         1.0000         1.0000              -         1.0000
+CMS_HWW_boosted_jmr_wjets_2016 shape                    1.0000              -              -         1.0000              -
+CMS_HWW_boosted_jms_ttbar_2016 shape                         -         1.0000         1.0000              -         1.0000
+CMS_HWW_boosted_jms_wjets_2016 shape                    1.0000              -              -         1.0000              -
+CMS_HWW_boosted_miniisolation_SF_unc lnN         0.9800/1.0200  0.9800/1.0200  0.9800/1.0200  0.9800/1.0200  0.9800/1.0200
+CMS_HWW_boosted_mu_identification lnN                   1.0000         0.9361         1.0000         1.0000         1.0000
+CMS_HWW_boosted_mu_isolation lnN                        1.0000         0.9361         1.0000         1.0000         1.0000
+CMS_HWW_boosted_mu_trigger lnN                          1.0000         0.9361         1.0000         1.0000         1.0000
+CMS_HWW_boosted_mu_trigger_iso lnN                      1.0000         0.9361         1.0000         1.0000         1.0000
+CMS_HWW_boosted_top_reweighting lnN                          -  0.8989/1.1163              -              -              -
+CMS_l1_ecal_prefiring_2016 lnN                          1.0231         0.9195  1.0163/1.0398  1.0169/1.0420         1.0151
+CMS_lumi_13TeV_2016 lnN                                 1.0100         1.0100         1.0100         1.0100         1.0100
+CMS_lumi_13TeV_correlated lnN                           1.0060         1.0060         1.0060         1.0060         1.0060
+CMS_pileup_2016 lnN                              0.9636/1.0600  0.8771/0.9284         1.0096  0.8997/1.1392  0.9227/1.1144
+CMS_pileup_id lnN                                       1.0027         0.9006         1.0012         1.0022         1.0018
+CMS_res_j_2016 lnN                                      0.9986         0.9011         0.9986  0.9950/1.0225         0.9956
+CMS_scale_j_Abs lnN                              0.9883/1.0132  0.8911/0.9116         0.9931  0.9920/1.0228  0.9786/1.0123
+CMS_scale_j_Abs_2016 lnN                         0.9768/1.0181  0.8867/0.9180  0.9706/1.0145  0.9857/1.0305  0.9786/1.0166
+CMS_scale_j_BBEC1 lnN                                   1.0035         0.9007         0.9945         1.0028         1.0070
+CMS_scale_j_BBEC1_2016 lnN                              1.0010         0.8999         0.9913         1.0035         1.0042
+CMS_scale_j_EC2 lnN                                     1.0031         0.9004         0.9975         1.0031         1.0018
+CMS_scale_j_EC2_2016 lnN                                1.0017         0.9002         0.9970         1.0031         1.0018
+CMS_scale_j_FlavQCD lnN                          0.9852/1.0145  0.8907/0.9133         0.9921  0.9964/1.0265  0.9728/1.0123
+CMS_scale_j_HF lnN                                      1.0033         0.9004         0.9970         1.0010         1.0070
+CMS_scale_j_HF_2016 lnN                                 1.0028         0.9007         0.9970         1.0014         1.0018
+CMS_scale_j_RelBal lnN                                  1.0030         0.9009  0.9813/1.0090  0.9940/1.0194         1.0032
+CMS_scale_j_RelSample_2016 lnN                          1.0019         0.9018  0.9856/1.0110         1.0092  0.9849/1.0123
+PDF_ttbar_ACCEPT_CMS_HWW_boosted shape                       -         1.0000              -              -              -
+PDF_wjets_ACCEPT_CMS_HWW_boosted shape                  1.0000              -              -              -              -
+ps_fsr_singletop_2016 lnN                                    -              -  1.0198/1.2832              -              -
+ps_fsr_ttbar_2016 lnN                                        -  0.8962/0.9198              -              -              -
+ps_fsr_wjets_2016 lnN                            1.0439/1.1612              -              -              -              -
+ps_isr_singletop lnN                                         -              -         1.0127              -              -
+ps_isr_ttbar lnN                                             -         0.9023              -              -              -
+ps_isr_wjets lnN                                 0.9489/1.0556              -              -              -              -
+unclustered_Energy lnN                                  1.0086         0.9011  0.9780/1.0440  0.9301/1.0769         0.9891
+wjetsnormSF rateParam * WJetsLNu 1.0 [0,5]
